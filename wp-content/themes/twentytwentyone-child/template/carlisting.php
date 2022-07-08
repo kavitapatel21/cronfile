@@ -6,6 +6,11 @@
  */
 get_header();
 ?>
+
+<?php
+//$post_id = $wpdb->get_results("SELECT meta_value FROM $wpdb->postmeta WHERE (meta_key = 'gallery')");
+//print_r($post_id);
+?>
 <section class="news pt-0">
     <div class="container mt-md-5">
         <h2 class="mx-4 my-0 text-center">Car Posts</h2>

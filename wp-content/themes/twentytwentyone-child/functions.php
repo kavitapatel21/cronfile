@@ -10,7 +10,3 @@ if ( ! function_exists( 'b7ectg_theme_enqueue_styles' ) ) {
     }
 }
 
-if ( function_exists( 'add_image_size' ) ) { 
-    add_image_size( 'single-post-thumbnail', 300, 250 ); //300 pixels wide (and unlimited height)
-   //add_image_size( 'single-post-thumbnail', 220, 180, true ); //(cropped)
-}
